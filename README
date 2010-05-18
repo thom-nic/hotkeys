@@ -1,0 +1,15 @@
+# First, create a python script file under 'hotkeys/' (relative to this file).
+# Write a function that will do what you want do.  You can do a lot 
+# with the pyGTK, Xlib and virtkey libraries. (Refer to their documentation.)
+# After the function is defined (along with any global varables used to keep 
+# state), call 
+# register_event_listener( keyCode, myFunc )
+# You can use the command-line program 'xev' to find the correct 'keycode' 
+# that you want to use.
+# 
+# Now you just need to run this script (hotkeys.py) which will source your
+# custom scripts and register your event listeners.
+# If you want to run the script at login, use this in your .profile:
+# nice python ~/bin/hotkeys.py > hotkeys.log &
+# Remember that in this case, your scripts would be in ~/bin/hotkeys/
+
